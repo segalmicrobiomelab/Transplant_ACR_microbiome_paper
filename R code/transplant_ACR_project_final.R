@@ -7,7 +7,7 @@ rm(list=ls(all.names=T))
 gc()
 
 ##open up the R script with all of the function created for the project
-source("C:/Users/kendr/OneDrive/Desktop/research_transplant/transplant_final_R_files/KW_functions_v1j.R")
+source("~/KW_functions_v1j.R")
 
 #packages needed for the script
 pkg_list <- c("devtools", "tidyverse", "readr", "readtext", "vegan", "ade4", "biomformat", "cachem", 
